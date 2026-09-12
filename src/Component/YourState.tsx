@@ -27,7 +27,7 @@ export default function YourStack({ yourStack, setYourStack }: YourStackProps) {
     
     return (
     <div className="rounded-3xl bg-white p-6 shadow-sm">
-      {/* Header */}
+      
       <div className="mb-5">
         <h2 className="text-2xl font-bold text-slate-800">
           Your Stack
@@ -42,26 +42,26 @@ export default function YourStack({ yourStack, setYourStack }: YourStackProps) {
         </p>
       </div>
 
-      {/* Empty State */}
+      
       {yourStack.length === 0 ? (
-        <div className="flex min-h-[110px] items-center justify-center rounded-2xl border border-dashed border-slate-200">
+        <div className="flex min-h-27.5 items-center justify-center rounded-2xl border border-dashed border-slate-200">
           <p className="text-sm text-slate-400">
             Your stack is empty.
           </p>
         </div>
       ) : (
         <>
-          {/* Selected Technologies */}
+          
           <div className="space-y-2">
             {yourStack.map((technology) => (
               <div
                 key={technology.id}
                 className="flex items-center justify-between rounded-xl border border-slate-200 bg-white p-3"
               >
-                {/* Technology Info */}
+                
                 <div className="flex items-center gap-3">
                   
-                  {/* Icon */}
+                  
                   <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-slate-50">
                     <img
                       src={technology.icon}
@@ -70,7 +70,7 @@ export default function YourStack({ yourStack, setYourStack }: YourStackProps) {
                     />
                   </div>
 
-                  {/* Name + Category */}
+                  
                   <div>
                     <h3 className="text-sm font-semibold text-slate-800">
                       {technology.name}
@@ -82,21 +82,21 @@ export default function YourStack({ yourStack, setYourStack }: YourStackProps) {
                   </div>
                 </div>
 
-                {/* Remove */}
+                
                 <button
                   onClick={() => removeTechnology(technology.id)}
                   className="text-slate-400 transition hover:text-red-500"
                 >
-                  <X size={20} />
+                  <X size={20} className="cursor-pointer" />
                 </button>
               </div>
             ))}
           </div>
 
-          {/* Remove All */}
+          
           <button
             onClick={removeAll}
-            className="mt-5 w-full rounded-xl border border-red-200 py-2.5 text-sm font-semibold text-red-500 transition hover:bg-red-50"
+            className="mt-5 w-full rounded-xl border border-red-200 py-2.5 text-[18px]  text-red-500 transition hover:bg-red-50 font-bold cursor-pointer"
           >
             Remove All
           </button>

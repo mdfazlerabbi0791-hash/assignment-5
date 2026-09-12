@@ -15,12 +15,12 @@ export default function Card({ techno }: CardProps) {
         <>
       
         <div className="container mx-auto mt-20">
-            <div>
+            <div className="leading-10">
                 <h1 className="text-5xl">Explore the <span className="text-[#d44db0]">Technologies</span></h1>
                 <p className="text-[#475569]">Pick one technology per category to build your ideal stack.</p>
             </div>
-            <div className="grid lg:grid-cols-12 gap-4 mt-10">
-                <div className=" col-span-9 grid grid-cols-1  md:grid-cols-3 gap-6">
+            <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 mt-10">
+                <div className=" lg:col-span-9 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 {
                     techno.map((tec) => <TecnologiNewCard tec={tec} yourStack ={yourStack} setYourStack ={setYourStack}/>)
                         
@@ -28,7 +28,7 @@ export default function Card({ techno }: CardProps) {
                 }
 
                 </div>
-                <div className="col-span-3 border border-gray-200 rounded-xl p-5 ">
+                <div className="col-span-3  ">
 
                     <YourStack  yourStack ={yourStack} setYourStack ={setYourStack}/>
                     

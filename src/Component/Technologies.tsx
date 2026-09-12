@@ -8,8 +8,7 @@ export interface TechnologiesProps {
 
 const Technologies = ({ technologiesPromise }: TechnologiesProps) => {
     const techno = use(technologiesPromise)
-    console.log(techno);
-    
+   
     return (
         <>
         <Card techno= {techno} />
