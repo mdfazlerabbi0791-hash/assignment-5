@@ -3,20 +3,20 @@ import type { ItechnologiesType } from "../Type/Type"
 
 
 export interface TecnologiNewCardProps {
-    tec: ItechnologiesType[]
+    tec: ItechnologiesType
     yourStack: ItechnologiesType[]
-    setYourSack: Dispatch <SetStateAction<ItechnologiesType[]>>
+    setYourStack: Dispatch <SetStateAction<ItechnologiesType[]>>
 
 }
 
-export default function TecnologiNewCard({ tec, yourStack, setYourSack }: TecnologiNewCardProps) {
+export default function TecnologiNewCard({ tec, yourStack, setYourStack }: TecnologiNewCardProps) {
 
     const handleTechno = () =>{
         if(yourStack.includes(tec)){
             return 
         }else{
             const setStack = [...yourStack, tec]
-            setYourSack(setStack)
+            setYourStack(setStack)
             
         }
     }

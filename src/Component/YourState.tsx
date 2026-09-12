@@ -16,7 +16,7 @@ export default function YourStack({ yourStack, setYourStack }: YourStackProps) {
         setYourStack([])
     }
 
-    const removeTechnology = (id) => {
+    const removeTechnology = (id: string) => {
         
         const remainig = [...yourStack].filter((tech) => tech.id !== id)
         setYourStack(remainig)
@@ -64,7 +64,7 @@ export default function YourStack({ yourStack, setYourStack }: YourStackProps) {
                   {/* Icon */}
                   <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-slate-50">
                     <img
-                      src={technology.logo}
+                      src={technology.icon}
                       alt={technology.name}
                       className="h-7 w-7 object-contain"
                     />
