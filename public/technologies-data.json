@@ -10,44 +10,44 @@
     "badge": "Popular"
   },
   {
-    "id": "nextjs",
-    "name": "Next.js",
+    "id": "vue.js",
+    "name": "Vue.js",
     "category": "Frontend",
-    "description": "A React framework for building fast, scalable, and production-ready web applications.",
+    "description": "An approachable, performant, and versatile framework for building web user interfaces.",
     "icon": "./icons/vue-2.png",
     "rating": 4.8,
-    "difficulty": "Intermediate",
-    "badge": "Powerful"
+    "difficulty": "Beginner-Friendly",
+    "badge": "Versatile"
   },
   {
-    "id": "nodejs",
-    "name": "Node.js",
-    "category": "Backend",
-    "description": "A JavaScript runtime used to build fast and scalable server-side applications.",
+    "id": "svelte",
+    "name": "Svelte",
+    "category": "Frontend",
+    "description": "Cybernetically enhanced web apps with compile-ime reactivity and zero virtual DOM overhead.",
     "icon": "./icons/Svelte-3.png",
     "rating": 4.8,
     "difficulty": "Intermediate",
-    "badge": "Popular"
+    "badge": "Fast"
   },
   {
-    "id": "express",
-    "name": "Express.js",
-    "category": "Backend",
+    "id": "next.js",
+    "name": "Next.js",
+    "category": "Frontend",
     "description": "A lightweight Node.js framework for building web servers and REST APIs.",
     "icon": "./icons/Container-4.png",
-    "rating": 4.7,
-    "difficulty": "Beginner-Friendly",
+    "rating": 4.9,
+    "difficulty": "Intermediate",
     "badge": "Essential"
   },
   {
-    "id": "mongodb",
-    "name": "MongoDB",
-    "category": "Database",
-    "description": "A popular NoSQL database designed for flexible and scalable applications.",
+    "id": "node.js",
+    "name": "Node.js",
+    "category": "Backend",
+    "description": "An asynchronous event-driven JavaScript runtime built on Chrome's V8 engine.",
     "icon": "./icons/Node.js-5.png",
-    "rating": 4.7,
-    "difficulty": "Beginner-Friendly",
-    "badge": "Flexible"
+    "rating": 4.8,
+    "difficulty": "Intermediate",
+    "badge": "Standard"
   },
   {
     "id": "postgresql",
@@ -60,63 +60,63 @@
     "badge": "Top SQL"
   },
   {
-    "id": "javascript",
+    "id": "redis",
+    "name": "Redis",
+    "category": "Database",
+    "description": "In-memory data structure store used as a high-speed database, cache, and message broker.",
+    "icon": "./icons/Container-7.png",
+    "rating": 4.8,
+    "difficulty": "Intermediate",
+    "badge": "Cache"
+  },
+  {
+    "id": "javaScript",
     "name": "JavaScript",
     "category": "Language",
-    "description": "A versatile programming language used to create interactive and dynamic web applications.",
-    "icon": "./icons/Container-7.png",
+    "description": "The versatile, ubiquitous scripting language powering dynamic behavior across the web.",
+    "icon": "./icons/Container-8.png",
     "rating": 4.9,
     "difficulty": "Beginner-Friendly",
+    "badge": "Ubiquitous"
+  },
+  {
+    "id": "typeScript",
+    "name": "TypeScript",
+    "category": "Language",
+    "description": "A strongly typed programming language that builds on JavaScript for robust tooling.",
+    "icon": "./icons/Container-9.png",
+    "rating": 4.8,
+    "difficulty": "Intermediate",
     "badge": "Essential"
   },
   {
-    "id": "typescript",
-    "name": "TypeScript",
+    "id": "java",
+    "name": "Java",
     "category": "Language",
-    "description": "A strongly typed programming language built on JavaScript for developing reliable applications.",
-    "icon": "./icons/Container-8.png",
-    "rating": 4.9,
-    "difficulty": "Intermediate",
-    "badge": "Modern"
-  },
-  {
-    "id": "tailwindcss",
-    "name": "Tailwind CSS",
-    "category": "Styling",
-    "description": "A utility-first CSS framework for rapidly building modern and responsive interfaces.",
-    "icon": "./icons/Container-9.png",
-    "rating": 4.8,
-    "difficulty": "Beginner-Friendly",
-    "badge": "Fast"
-  },
-  {
-    "id": "bootstrap",
-    "name": "Bootstrap",
-    "category": "Styling",
-    "description": "A popular CSS framework that provides responsive layouts and reusable UI components.",
+    "description": "A secure, object-oriented programming language designed for portability and scale.",
     "icon": "./icons/Container-10.png",
     "rating": 4.6,
+    "difficulty": "Intermediate",
+    "badge": "Robust"
+  },
+  {
+    "id": "tailwind CSS",
+    "name": "Tailwind CSS",
+    "category": "Styling",
+    "description": "A utility-first CSS framework packed with classes that can be composed to build custom UI.",
+    "icon": "./icons/Container-11.png",
+    "rating": 4.9,
     "difficulty": "Beginner-Friendly",
-    "badge": "Classic"
+    "badge": "Modern"
   },
   {
     "id": "docker",
     "name": "Docker",
     "category": "DevOps",
-    "description": "A platform for packaging applications and dependencies into lightweight containers.",
-    "icon": "./icons/Container-11.png",
-    "rating": 4.8,
-    "difficulty": "Intermediate",
-    "badge": "Containers"
-  },
-  {
-    "id": "git",
-    "name": "Git",
-    "category": "Tools",
-    "description": "A distributed version control system used to track code changes and collaborate with developers.",
+    "description": "A platform designed to build, share, and run containerized applications reliably.",
     "icon": "./icons/Container-12.png",
     "rating": 4.9,
-    "difficulty": "Beginner-Friendly",
-    "badge": "Essential"
+    "difficulty": "Intermediate",
+    "badge": "Containers"
   }
 ]
