@@ -1,10 +1,13 @@
+import type { useState } from "react"
 import type { ItechnologiesType } from "../../Type/Type"
+import YourStack from "../YourState"
 
 export interface CardProps {
     techno: ItechnologiesType[]
 }
 
 export default function Card({ techno }: CardProps) {
+    const [yourStack, setYourSack] = useState<Technology[]>([]);
     
     return (
         <>
@@ -42,8 +45,14 @@ export default function Card({ techno }: CardProps) {
                 }
 
                 </div>
-                <div className="col-span-1"></div>
+                <div className="col-span-3 border border-gray-200 rounded-xl p-5 ">
+
+                    <YourStack  yourStack ={yourStack} setYourSack ={setYourSack}/>
+                    
+                </div>
+            
             </div>
+            
         </div>
         
         </>
