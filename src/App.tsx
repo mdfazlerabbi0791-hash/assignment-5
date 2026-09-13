@@ -4,6 +4,7 @@ import Navber from "./Component/Navber"
 
 import type { ItechnologiesType } from "./Type/Type";
 import Technologies from "./Component/Technologies";
+import Footer from "./Component/Footer";
 
 const technologiesPromise = async(): Promise <ItechnologiesType[]> =>{
   const res = await fetch('./technologies-data.json')
@@ -21,6 +22,7 @@ function App() {
    <Suspense fallback={<h1 className="text-center">Loding...</h1>}>
     <Technologies technologiesPromise={technologiesPromise()}/>
    </Suspense>
+   <Footer/>
 
     </>
   )
