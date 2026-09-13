@@ -15,7 +15,7 @@ export default function Card({ techno }: CardProps) {
         <>
       
         <div className="container mx-auto mt-20">
-            <div className="leading-10">
+            <div className="leading-10 text-center md:text-left">
                 <h1 className="text-5xl">Explore the <span className="text-[#d44db0]">Technologies</span></h1>
                 <p className="text-[#475569]">Pick one technology per category to build your ideal stack.</p>
             </div>
